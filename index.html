@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control de Gastos</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Control de Gastos</h1>
+    </header>
+    <main>
+        <section id="gastos">
+            <h2>Lista de Gastos</h2>
+            <ul id="lista-gastos"></ul>
+        </section>
+        <section id="nuevo-gasto">
+            <h2>Agregar Nuevo Gasto</h2>
+            <form id="form-gasto">
+                <input type="text" id="descripcion" placeholder="Descripción" required>
+                <input type="number" id="monto" placeholder="Monto" required>
+                <button type="submit">Agregar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Control de Gastos</p>
+    </footer>
+    <script src="src/js/main.js"></script>
+</body>
+</html>
